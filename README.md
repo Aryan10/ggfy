@@ -1,25 +1,13 @@
-# hello-sqlite
+# ggfy - URL Shortener
 
-A starter that has a database
+`ggfy` is a web application that provides a URL shortening service. It allows users to shorten long URLs and provides a short link that redirects to the original URL.
 
-- This app uses sqlite but you can power your apps with [a number of other storage options](https://glitch.com/storage)
-- `sqlite.db` is created and put into the `.data` folder, a hidden directory whose contents aren’t copied when a project is remixed. You can see the contents of `.data` in the console under "Logs"
-- To save to the database, remix this app!
+## Live Demo
 
-On the front-end,
+You can access the live version of the application at: [ggfy.glitch.me](https://ggfy.glitch.me)
 
-- Edit `views/index.html`,  `public/style.css`, and `public/client.js`
-- Drag in `assets`, like images or music, to add them to your project
+## Features
 
-On the back-end,
-
-- Your app starts at `server.js`
-- Add frameworks and packages in `package.json`
-- Safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
-
-
-## Made by [Glitch](https://glitch.com/)
-
-\ ゜ o ゜)ノ
+- **Shorten URLs**: Convert long URLs into shorter, more manageable links.
+- **View Previously Generated URLs**: See a list of URLs you have shortened.
+- **Simple User Interface**: Easy-to-use interface for shortening URLs and viewing history.
